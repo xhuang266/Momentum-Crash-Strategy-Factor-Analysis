@@ -7,7 +7,6 @@ It evolves from a simple hypothesis testing framework (OLS) to a market-neutral 
 
 ## Project Features
 
-* **V16 Optimization:**
   1. **XGBoost Classifier:** Switched from Regression (predicting returns) to Classification (predicting crash events).
   2. **Look-ahead Bias Free:** Target variable `y` is based on future 5-day rolling drawdown, strictly separated from input features `X`.
   3. **Feature Engineering:** Added rolling features (MA 5/20, Sum 5/20) to capture trend dynamics.
@@ -28,4 +27,5 @@ It evolves from a simple hypothesis testing framework (OLS) to a market-neutral 
 
 1. Install dependencies:
    ```bash
+
    pip install -r requirements.txt
