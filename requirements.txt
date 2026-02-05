@@ -1,0 +1,14 @@
+---
+
+### 11. `requirements.txt`
+
+```text
+pandas
+numpy
+yfinance
+matplotlib
+seaborn
+statsmodels
+xgboost
+scikit-learn
+tqdm
